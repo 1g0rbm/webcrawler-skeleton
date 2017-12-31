@@ -171,12 +171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/1g0rbm/webcrawler.git",
-                "reference": "57f1cbade236144c4c954b515ef73e5e64e2241e"
+                "reference": "b9fd714af6c42ca930924ce96e62980662c0d681"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/1g0rbm/webcrawler/zipball/57f1cbade236144c4c954b515ef73e5e64e2241e",
-                "reference": "57f1cbade236144c4c954b515ef73e5e64e2241e",
+                "url": "https://api.github.com/repos/1g0rbm/webcrawler/zipball/b9fd714af6c42ca930924ce96e62980662c0d681",
+                "reference": "b9fd714af6c42ca930924ce96e62980662c0d681",
                 "shasum": ""
             },
             "require": {
@@ -213,7 +213,7 @@
                 }
             ],
             "description": "This is the web parser based on symfony components",
-            "time": "2017-12-31T10:05:55+00:00"
+            "time": "2017-12-31T10:22:44+00:00"
         },
         {
             "name": "doctrine/annotations",
