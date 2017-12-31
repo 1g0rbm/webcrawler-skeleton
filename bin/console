@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * @var \App\Kernel $crawler
+ */
+$crawler = require __DIR__ . '/../bootstrap.php';
+
+$crawler->runConsole();
