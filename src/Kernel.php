@@ -9,8 +9,8 @@ class Kernel extends CrawlerKernel
 {
     public function __construct()
     {
-        $this->projectDir = $this->getProjectDir();
         $this->loadDotenv(new Dotenv);
+        $this->loadParsers();
 
         parent::__construct();
     }

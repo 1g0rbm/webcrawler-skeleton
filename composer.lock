@@ -171,12 +171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/1g0rbm/webcrawler.git",
-                "reference": "b9fd714af6c42ca930924ce96e62980662c0d681"
+                "reference": "4102e3ddf2697ea4ccb2cb8f3deb2aa82ab37b3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/1g0rbm/webcrawler/zipball/b9fd714af6c42ca930924ce96e62980662c0d681",
-                "reference": "b9fd714af6c42ca930924ce96e62980662c0d681",
+                "url": "https://api.github.com/repos/1g0rbm/webcrawler/zipball/4102e3ddf2697ea4ccb2cb8f3deb2aa82ab37b3b",
+                "reference": "4102e3ddf2697ea4ccb2cb8f3deb2aa82ab37b3b",
                 "shasum": ""
             },
             "require": {
@@ -213,7 +213,7 @@
                 }
             ],
             "description": "This is the web parser based on symfony components",
-            "time": "2017-12-31T10:22:44+00:00"
+            "time": "2018-01-01T16:31:02+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -1907,12 +1907,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2068d5216333af1b3dc8dc1552f6b9e2df3dc0ee"
+                "reference": "a8a78a4082b86924a005a7b1981b797a6ce64b49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2068d5216333af1b3dc8dc1552f6b9e2df3dc0ee",
-                "reference": "2068d5216333af1b3dc8dc1552f6b9e2df3dc0ee",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a8a78a4082b86924a005a7b1981b797a6ce64b49",
+                "reference": "a8a78a4082b86924a005a7b1981b797a6ce64b49",
                 "shasum": ""
             },
             "require": {
@@ -1983,7 +1983,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-12-28T09:21:53+00:00"
+            "time": "2018-01-01T07:03:12+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
