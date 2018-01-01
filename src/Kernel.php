@@ -10,8 +10,9 @@ class Kernel extends CrawlerKernel
     public function __construct()
     {
         $this->loadDotenv(new Dotenv);
-        $this->loadParsers();
 
         parent::__construct();
+
+        $this->loadParsers();
     }
 }
