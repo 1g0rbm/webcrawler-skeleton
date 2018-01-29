@@ -3,8 +3,14 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
 use App\Kernel;
-use Ig0rbm\HandyBox\HandyBoxContainer;
 
-$crawlerKernel = new Kernel(new HandyBoxContainer());
+try {
+    $crawlerKernel = new Kernel();
 
-return $crawlerKernel;
+    // New boxes, console commands and parsers must be registered here
+
+    return $crawlerKernel;
+} catch (\Exception $e) {
+    (new \Ig0rbm\Webcrawler\ErrorHandler($e))
+        ->handle();
+}
